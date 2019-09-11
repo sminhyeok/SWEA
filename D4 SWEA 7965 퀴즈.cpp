@@ -1,4 +1,4 @@
-//2019.09.09 20:33~21:44
+//2019.09.09 20:33~21:44 DPì‚¬ìš©
 #include <iostream>
 #define N 1000000
 using namespace std;
@@ -7,7 +7,7 @@ unsigned long long DP[21][N+1];
 unsigned long long DP2[N + 1];
 
 void calc(int n) {
-	int index[21];	// 2Áø¼ö ÀúÀå
+	int index[21];	// 2ÃÃ¸Â¼Ã¶ Ã€ÃºÃ€Ã¥
 	int K = 0;
 	int temp = n;
 	while (temp) {
